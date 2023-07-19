@@ -541,9 +541,9 @@ section {
   padding-right:5px;
 }
 
-.skill-bar .bar .html {
-  width: 72%;
-  animation: html 2s;
+.skill-bar .bar .nodejs {
+  width: 80%;
+  animation: nodejs 2s;
 }
 
 .skill-bar .bar .figma {
@@ -829,12 +829,12 @@ transition: 3s;
   }
 }
 
-@keyframes html {
+@keyframes nodejs {
   0% {
     width: 0%;
   }
   100% {
-    width: 72%;
+    width: 80%;
   }
 }
 
@@ -973,7 +973,7 @@ transition: 3s;
 }
 
 @media (max-width: 420px) {
-  html {
+  nodejs {
     font-size: 80%;
   }
   footer p {
